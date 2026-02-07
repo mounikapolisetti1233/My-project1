@@ -1,0 +1,280 @@
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,Helvetica,sans-serif}
+
+body{background:#f4f6fb;color:#111}
+
+.hero{
+height:100vh;
+background:linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)),
+url("https://hcltech.imgix.net/sites/default/files/inline-images/americas-mkt-deal-announcement-1440x500px.jpg");
+background-size:cover;
+background-position:center;
+color:#fff;
+position:relative
+}
+
+.navbar{
+width:92%;
+margin:20px auto;
+background:#e6e6e6;
+border-radius:16px;
+padding:14px 26px;
+display:flex;
+align-items:center;
+justify-content:space-between
+}
+
+.nav-left{display:flex;gap:12px}
+.logo{font-size:26px;font-weight:700;color:#0b4ddb}
+.tagline{font-size:12px;color:#0b4ddb}
+
+.nav-menu{list-style:none;display:flex;gap:28px;font-size:14px;
+color:#333}
+.nav-right{display:flex;gap:14px;align-items:center}
+
+.primary-btn{
+background:#0b4ddb;
+color:#fff;
+border:none;
+padding:8px 16px;
+border-radius:8px
+}
+
+.secondary-btn{
+background:#fff;
+border:none;
+padding:10px 20px;
+border-radius:8px
+}
+
+.hero-content{
+position:absolute;
+left:8%;
+top:50%;
+transform:translateY(-50%);
+max-width:650px
+}
+
+.hero-content h1{font-size:48px;margin-bottom:20px}
+.hero-content p{color:#ddd;margin-bottom:28px}
+
+.ai-roi{
+    width: 100%;
+    margin: -70px auto 63px;
+    padding: 90px;
+    border-radius: 26px;
+    background: linear-gradient(135deg, #7fa2e6, #3b3fd8, #4b2fbf);
+    color: #fff;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ai-roi-header{
+display:flex;
+justify-content:space-between;
+align-items:center
+}
+
+.ai-stats{
+display:flex;
+gap:30px;
+margin-top:50px
+}
+
+.ai-stats div{flex:1}
+.ai-stats h3{font-size:34px;margin-bottom:10px}
+
+.ai-search{
+padding:80px 0;
+text-align:center;
+background:#eef0f7
+}
+
+.ai-search h2{font-size:32px;margin-bottom:30px}
+.ai-search span{color:#3b3fd8}
+.ai-search input{
+width:50%;
+padding:14px;
+border:none;
+border-radius:12px;
+font-size:16px
+}
+
+.highlights{
+padding:80px;
+background:#e9ecf5
+}
+
+.highlight-grid{
+display:grid;
+grid-template-columns:2fr 1fr;
+gap:30px
+}
+
+.highlight-main img{
+width:100%;
+border-radius:20px;
+margin-bottom:20px
+}
+
+.highlight-list div{
+background:#fff;
+padding:20px;
+border-radius:12px;
+margin-bottom:16px
+}
+
+.growth{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:60px;
+padding:100px
+}
+
+.growth-cards div{
+background:#fff;
+padding:30px;
+border-radius:16px;
+margin-bottom:20px
+}
+
+.case-studies{
+padding:80px;
+background:#f0f2f9
+}
+
+.case-card{
+display:flex;
+gap:30px;
+background:#fff;
+padding:30px;
+border-radius:20px
+}
+
+.case-card img{
+width:260px;
+border-radius:16px
+}
+
+.footer{
+background:#0b1c2d;
+color:#fff;
+padding:80px 0
+}
+
+.footer-grid{
+width:90%;
+margin:auto;
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:40px
+}
+
+.footer p{color:#ccc;font-size:14px}
+.footer-bottom{
+margin-top:40px;
+text-align:center;
+color:#aaa;
+font-size:13px
+}
+
+
+
+.careers{
+padding:100px 0;
+text-align:center;
+background:linear-gradient(135deg,#e6ebff,#f5f7ff)
+}
+
+.careers h2{font-size:36px;margin-bottom:10px}
+.careers p{margin-bottom:40px;color:#444}
+
+.career-cards{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:30px;
+width:80%;
+margin:auto
+}
+
+.career-cards img{
+width:100%;
+height:260px;
+object-fit:cover;
+border-radius:18px
+}
+
+.career-cta{
+margin-top:50px;
+background:#fff;
+width:60%;
+margin-left:auto;
+margin-right:auto;
+padding:30px;
+border-radius:18px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+box-shadow:0 12px 40px rgba(0,0,0,.1)
+}
+
+.career-cta h3{font-size:22px}
+
+.career-cta button{
+background:#0b4ddb;
+color:#fff;
+border:none;
+padding:12px 20px;
+border-radius:10px
+}
+
+.newsletter{
+padding:60px 0;
+text-align:center;
+background:linear-gradient(90deg,#d9d7ff,#eaf1ff)
+}
+
+.newsletter h3{margin-bottom:10px}
+.newsletter p{margin-bottom:20px;color:#555}
+
+.newsletter button{
+background:#0b4ddb;
+color:#fff;
+border:none;
+padding:10px 22px;
+border-radius:10px
+}
+
+.mega-footer{
+background:#f2f4fa;
+padding:80px 0 40px
+}
+
+.footer-columns{
+width:90%;
+margin:auto;
+display:grid;
+grid-template-columns:repeat(6,1fr);
+gap:40px
+}
+
+.footer-columns h4{
+margin-bottom:14px;
+font-size:14px
+}
+
+.footer-columns p{
+font-size:13px;
+color:#555;
+margin-bottom:8px
+}
+
+.footer-bottom{
+margin-top:50px;
+text-align:center;
+font-size:12px;
+color:#777
+}
